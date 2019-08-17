@@ -20,14 +20,13 @@ body {
   padding: 0;
 
   font-family: 'NeueMachina', monospace;
-  font-size: 16px;
-  line-height: 34px;
+  font-size: 18px;
+  line-height: 38px;
   letter-spacing: .015em;;
   color: #000000;
 
   background-color: #ffffff;
 }
-
 
 .vissually-hidden {
   position: absolute;
@@ -42,10 +41,6 @@ body {
 
 a {
   color: #000000;
-}
-
-.about ul {
-  list-style: none;
 }
 
 .main-header a {
@@ -70,11 +65,7 @@ a {
   background-size: 4px 50px;
 }
 
-
-
 .main-header {
-  /* margin-top: 10px; */
-
   margin-left: 100px;
   margin-top: 15px;
   position: fixed;
@@ -101,7 +92,6 @@ section {
   border: 1px solid #000000;
   margin-right: 95px;
   margin-bottom: 95px;
-
   width: 350px;
   height: 196px;
 }
@@ -131,7 +121,7 @@ img {
 
 .container {
   width: 1440px;
-  margin: 450px auto;
+  margin: auto;
 }
 
 .grid {
@@ -139,4 +129,6 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   margin-left: 100px;
   margin-right: 100px;
+  margin-top: 400px;
+  margin-bottom: 350px;
 }
