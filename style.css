@@ -1,12 +1,15 @@
 @font-face {
-    font-family: 'NeueMachinaRegular';
-    src: url('fonts/NeueMachinaRegular.eot');
-    src: url('fonts/NeueMachinaRegular.eot') format('embedded-opentype'),
-         url('fonts/NeueMachinaRegular.woff2') format('woff2'),
-         url('fonts/NeueMachinaRegular.woff') format('woff'),
-         url('fonts/NeueMachinaRegular.ttf') format('truetype'),
-         url('fonts/NeueMachinaRegular.svg#NeueMachinaRegular') format('svg');
+    font-family: 'NeueMachina';
+    src: url('fonts/NeueMachina-Light.eot');
+    src: url('fonts/NeueMachina-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NeueMachina-Light.woff2') format('woff2'),
+        url('fonts/NeueMachina-Light.woff') format('woff'),
+        url('fonts/NeueMachina-Light.ttf') format('truetype'),
+        url('fonts/NeueMachina-Light.svg#NeueMachina-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
 }
+
 
 :root {
   --mainColor: #000000;
@@ -16,9 +19,10 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: 'NeueMachinaRegular', monospace;
+  font-family: 'NeueMachina', monospace;
   font-size: 16px;
   line-height: 34px;
+  letter-spacing: .015em;;
   color: #000000;
 
   background-color: #ffffff;
@@ -92,6 +96,23 @@ section {
   margin-bottom: 15px;
 }
 
+.grid_gorizontal {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  margin-right: 95px;
+  margin-bottom: 95px;
+
+  width: 350px;
+  height: 196px;
+}
+
+img {
+  display: none;
+}
+
+.grid_gorizontal:hover img {
+  display: inline;
+}
 
 img {
   width: 350px;
@@ -99,14 +120,6 @@ img {
 
   margin-right: 95px;
   margin-bottom: 95px;
-
-  filter: blur(3px);
-  /* filter: blur(5px); */
-  /* transition: all 200ms ease; */
-}
-
-img:hover {
-  filter: blur(0px);
 }
 
 /* .vertical {
@@ -126,26 +139,4 @@ img:hover {
   grid-template-columns: 1fr 1fr 1fr;
   margin-left: 100px;
   margin-right: 100px;
-
 }
-
-/* .grid_gorizontal {
-  /* background-color: #C4C4C4; */
-  /* width: 336px;
-  height: 336px;
-  margin-bottom: 32px; */ */
-  /* padding-left: 43px;
-  padding-right: 43px;
-  padding-top: 98px;
-  padding-bottom: 98px; */
-}
-
-/* .grid_vertical {
-  background-color: #C4C4C4;
-  width: 336px;
-  height: 336px;
-  /* padding-left: 98px;
-  padding-right: 98px;
-  padding-top: 43px;
-  padding-bottom: 43px; */
-} */
