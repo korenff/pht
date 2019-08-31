@@ -107,6 +107,7 @@ img {
   .grid {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 40px;
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 200px;
@@ -139,6 +140,7 @@ img {
   .grid {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 50px;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 200px;
